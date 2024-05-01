@@ -5,5 +5,4 @@ relative_links:
   collections: true
 include:
   - webpage.md
-theme: Midnight
-# jekyll-theme-tactile
+theme: jekyll-theme-tactile
