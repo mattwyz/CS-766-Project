@@ -7,11 +7,10 @@ Every year there are more electric and self driving vehicles on the roads, and a
 A major part of this safety guarantee comes in the form of reliable hazard detection and taking possible preventative measures based on that data.
 For our project we wanted to explore how this hazard detection can be completed through the means of computer vision using machine learning.\
 \
-We set out to make a simple model that could classify multiple different types of hazards from input images, and we later explored using an established model and a 
-large dataset to achieve more hazard and road feature identification for both images and video inputs.
+We set out to make a simple model that could classify multiple different types of hazards from input images, and we later explored using an established model and a large dataset to achieve more hazard and road feature detection for both images and video inputs.
 # Methodology
 ## Dataset and Preprocessing
-For our project we used two different datasets for our individual classification and identification models.\
+For our project we used two different datasets for our individual classification and detection models.\
 \
 For our classification model we used a dataset found on [Kaggle](https://www.kaggle.com/datasets/virenbr11/pothole-and-plain-rode-images/data) which included 740
 images of roads with and without potholes that were scraped from google. Before training, we removed the images that had poor quality or did not accurately match their corresponding labels.
@@ -22,11 +21,11 @@ Then, using the [FiftyOne](https://docs.voxel51.com/) library, we converted the 
 in a text file for each image.
 
 ## Model Architecture 
-Classification 
-The VGG16 architecture was developed by NK. Simonyan and A. Zisserman from the University of Oxford in 2014. It was described in their paper "Very Deep Convolutional Networks for Large-Scale Image Recognition." In the VGG16 architecture, images pass through sequential layers that include two convolutional layers followed by a max-pooling layer, continuing with more convolutions and pooling until reaching the fully connected layers. The convolutional layers primarily use small 3×3 filters, with a stride of 1 and padding to preserve spatial resolution, alongside 2×2 max-pooling layers with a stride of 2.
+The classification model uses the VGG16 architecture that was developed by NK. Simonyan and A. Zisserman from the University of Oxford in 2014. It was described in their paper "Very Deep Convolutional Networks for Large-Scale Image Recognition." In the VGG16 architecture, images pass through sequential layers that include two convolutional layers followed by a max-pooling layer, continuing with more convolutions and pooling until reaching the fully connected layers. The convolutional layers primarily use small 3×3 filters, with a stride of 1 and padding to preserve spatial resolution, alongside 2×2 max-pooling layers with a stride of 2.
 
 ![](./VGG1.png)
-
+\
+The detection model 
 
 # Results
 ## Classification 
