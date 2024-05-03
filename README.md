@@ -25,7 +25,7 @@ in a text file for each image.
 Classification 
 The VGG16 architecture was developed by NK. Simonyan and A. Zisserman from the University of Oxford in 2014. It was described in their paper "Very Deep Convolutional Networks for Large-Scale Image Recognition." In the VGG16 architecture, images pass through sequential layers that include two convolutional layers followed by a max-pooling layer, continuing with more convolutions and pooling until reaching the fully connected layers. The convolutional layers primarily use small 3×3 filters, with a stride of 1 and padding to preserve spatial resolution, alongside 2×2 max-pooling layers with a stride of 2.
 
-![Opened-up view of the VGG16 Architecture](./Opened_up_view_of_the_VGG16_Architecture.png)
+![](./VGG1.png)
 
 
 # Results
