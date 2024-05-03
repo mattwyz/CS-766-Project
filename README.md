@@ -28,7 +28,7 @@ The classification model uses the VGG16 architecture that was described by NK. S
 \
 The detection model  ...
 
-![](./Visuals/YOLO.png)
+![](./Visuals/YOLO.jpg)
 
 # Results
 ## Classification 
@@ -45,9 +45,9 @@ In our case, we first tested using the binary classification model in order to c
 
 ## Detection (Yolov8)
 
-![](./Visuals/detection1.png)
+![](./Visuals/detection1.jpg)
 
-![](./Visuals/detection2.png)
+![](./Visuals/detection2.jpg)
 
 # Demonstrations
 
