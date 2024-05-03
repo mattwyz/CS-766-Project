@@ -60,6 +60,6 @@ In our case, we first tested using the binary classification model in order to c
 
 ![](./Visuals/detection2.jpg)
 
-<video src="./demo.mp4" controls></video>
+[Verification conducted using a video captured by us on John Nolen Drive, Madison, WI.](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
 
 # References
