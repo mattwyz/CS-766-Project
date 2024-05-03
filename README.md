@@ -43,13 +43,22 @@ In our case, we first tested using the binary classification model in order to c
 
 ![](./Visuals/TandC_Loss3.png)
 
-## Detection (Yolov8)
+## Detection
 
+![](./Visuals/Det_Metrics.png)
+
+# Demonstrations
+## Classification
+
+![](./Visuals/plain.png)
+
+![](./Visuals/pothole.png)
+
+![](./Visuals/animal.png)
+## Detection
 ![](./Visuals/detection1.jpg)
 
 ![](./Visuals/detection2.jpg)
-
-# Demonstrations
 
 <video src="./demo.mp4" controls></video>
 
