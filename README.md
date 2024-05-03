@@ -26,7 +26,7 @@ The classification model uses the VGG16 architecture that was described by NK. S
 ![](./Visuals/VGG1.png)
 \
 \
-The detection model  ...
+The detection model we applied in this project is Yolov8n. Visual object detection algorithms are categorized into two types: one-stage and two-stage. We used Yolov8 because one-stage algorithms process images through the network model once and generate all the bounding boxes in a single pass, making them quick and highly suitable for real-time detection scenarios.
 
 ![](./Visuals/YOLO.jpg)
 
@@ -69,4 +69,11 @@ Explain demos
 
 # References
 https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
+\
 https://medium.com/@VK_Venkatkumar/yolov8-architecture-cow-counter-with-region-based-dragging-using-yolov8-e75b3ac71ed8
+\
+K. Simonyan and A. Zisserman, “Very Deep Convolutional Networks for Large-Scale Image Recognition.” arXiv, Apr. 10, 2015. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/1409.1556
+\
+C.-Y. Wang, I.-H. Yeh, and H.-Y. M. Liao, “YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information.” arXiv, Feb. 28, 2024. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/2402.13616
+
+
