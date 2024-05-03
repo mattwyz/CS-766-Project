@@ -26,12 +26,12 @@ The classification model uses the VGG16 architecture that was described by NK. S
 ![](./VGG1.png)
 \
 \
-The detection model 
+The detection model  ...
 
 # Results
 ## Classification 
 
-### Detection (Yolov8)
+## Detection (Yolov8)
 
 
 
