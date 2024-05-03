@@ -10,6 +10,12 @@ For our project we wanted to explore how this hazard detection can be completed 
 We set out to make a simple model that could detect multiple different types of hazards from input images, and we later explored using an established model and a 
 large dataset to achieve more hazard and road feature identification for both images and video inputs.
 # Methodology
+## Dataset and Preprocessing
+For our project we used two different datasets for our individual detection and identification models.\
+\
+For our classification model we used a dataset found on [Kaggle](https://www.kaggle.com/datasets/virenbr11/pothole-and-plain-rode-images/data) which included 740
+images of roads with and without potholes that were scraped from google. Before training, we removed the images that had poor quality or did not accurately match their corresponding labels.
+Then we found and added around 100 images into the dataset in order to create a new class of hazard. When we had the images, we preprocessed them using Keras by resizing and scaling the images for ease of computing.
 
 # Results
 
