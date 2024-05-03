@@ -1,4 +1,3 @@
-# Hazard Detection in Self-driving Vehicles
 Link to presentation slides [here.](https://github.com/mattwyz/CS-766-Project/blob/main/Presentation_Slides.pdf)\
 Link to Github repository [here.](https://github.com/mattwyz/CS-766-Project)
 
@@ -9,7 +8,7 @@ For our project we wanted to explore how this hazard detection can be completed 
 \
 We set out to make a simple model that could classify multiple different types of hazards from input images, and we later explored using an established model and a large dataset to achieve more hazard and road feature detection for both images and video inputs.
 # Methodology
-## Dataset and Preprocessing
+## Datasets and Preprocessing
 For our project we used two different datasets for our individual classification and detection models.\
 \
 For our classification model we used a dataset found on [Kaggle](https://www.kaggle.com/datasets/virenbr11/pothole-and-plain-rode-images/data) which included 740
@@ -20,10 +19,11 @@ For our indentification model, we used the [BDD100K](https://www.vis.xyz/bdd100k
 Then, using the [FiftyOne](https://docs.voxel51.com/) library, we converted the dataset to be compatible with the YOLO architechural model, which consisted of storing the coordinates of the images, along with other data
 in a text file for each image.
 
-## Model Architecture 
+## Model Architectures 
 The classification model uses the VGG16 architecture that was developed by NK. Simonyan and A. Zisserman from the University of Oxford in 2014. It was described in their paper "Very Deep Convolutional Networks for Large-Scale Image Recognition." In the VGG16 architecture, images pass through sequential layers that include two convolutional layers followed by a max-pooling layer, continuing with more convolutions and pooling until reaching the fully connected layers. The convolutional layers primarily use small 3×3 filters, with a stride of 1 and padding to preserve spatial resolution, alongside 2×2 max-pooling layers with a stride of 2.
 
 ![](./VGG1.png)
+\
 \
 The detection model 
 
