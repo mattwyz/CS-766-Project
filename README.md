@@ -36,6 +36,6 @@ The VGG16 architecture was developed by NK. Simonyan and A. Zisserman from the U
 
 # Demonstrations
 
-[Verification conducted using a video captured by us on John Nolen Drive, Madison, WI. ](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
+![](./demo.mp4)
 
 # References
