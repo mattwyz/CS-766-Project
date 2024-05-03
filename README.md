@@ -33,6 +33,7 @@ The VGG16 architecture was developed by NK. Simonyan and A. Zisserman from the U
 
 ## Detection (Yolov8)
 
+<video src="./demo.mp4" width="320" height="240" controls></video>
 
 # Demonstrations
 
