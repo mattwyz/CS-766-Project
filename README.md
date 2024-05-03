@@ -30,6 +30,16 @@ The detection model  ...
 
 # Results
 ## Classification 
+The results for the classification model were measured by inspecting the validation and testing accuracy and loss given by the model.
+In our case, we first tested using the binary classification model in order to create a baseline of performance for the model, and then we added another class to determine how perforance was altered.
+
+![](./Visuals/TandV_Acc2.png)
+
+![](./Visuals/TandC_Loss2.png)
+
+![](./Visuals/TandV_Acc3.png)
+
+![](./Visuals/TandC_Loss3.png)
 
 ## Detection (Yolov8)
 
