@@ -66,7 +66,8 @@ Explain demos
 ![](./Visuals/detection2.jpg)
 
 [Verification conducted using a video captured by us on John Nolen Drive, Madison, WI.](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
-
+\
+[Demo on a video from Bdd100k at night condition.](https://drive.google.com/file/d/1II44n4NCvpJYYG3uKN_vE9K6-DPWbO6o/view?usp=drive_link)
 # References
 https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
 \
