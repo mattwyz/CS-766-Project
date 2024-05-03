@@ -27,6 +27,7 @@ The classification model uses the VGG16 architecture that was described by NK. S
 \
 \
 The detection model we applied in this project is Yolov8n. Visual object detection algorithms are categorized into two types: one-stage and two-stage. We used Yolov8 because one-stage algorithms process images through the network model once and generate all the bounding boxes in a single pass, making them quick and highly suitable for real-time detection scenarios.YOLOv8 has been proven effective in a variety of computer vision tasks and various real-time object detecting scenarios. 
+
 ![](./Visuals/YOLO.jpg)
 
 # Results
