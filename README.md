@@ -25,4 +25,4 @@ Then we found and added around 100 images into the dataset in order to create a 
 
 # Demonstrations
 
-[![Watch the video]([https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link))]
+[Watch the video](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
