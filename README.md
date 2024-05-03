@@ -20,6 +20,12 @@ Then we found and added around 100 images into the dataset in order to create a 
 For our indentification model, we used the [BDD100K](https://www.vis.xyz/bdd100k/) which includes 70,000 images for training, 10,000 images for validation, and 20,000 images for testing.
 Then, using the [FiftyOne](https://docs.voxel51.com/) library, we converted the dataset to be compatible with the YOLO architechural model, which consisted of storing the coordinates of the images, along with other data
 in a text file for each image.
+
+## Model Architecture 
+Classification 
+The VGG16 architecture, a convolutional neural network model, was developed by NK. Simonyan and A. Zisserman from the University of Oxford. It was described in their paper "Very Deep Convolutional Networks for Large-Scale Image Recognition." 
+![Opened-up view of the VGG16 Architecture](https://drive.google.com/file/d/1c17iOMFsnN0pvXYl4PVIdxQEIA3fWNgs/view?usp=drive_link)
+
 # Results
 ## Classification 
 
@@ -28,4 +34,6 @@ in a text file for each image.
 
 # Demonstrations
 
-[Watch the video](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
+[Verification conducted using a video captured by us on John Nolen Drive, Madison, WI. ](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
+
+# References
