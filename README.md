@@ -68,12 +68,12 @@ Explain demos
 \
 [Demo on a video from Bdd100k at night condition.](https://drive.google.com/file/d/1II44n4NCvpJYYG3uKN_vE9K6-DPWbO6o/view?usp=drive_link)
 # References
-https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
+[1] https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
 \
-https://medium.com/@VK_Venkatkumar/yolov8-architecture-cow-counter-with-region-based-dragging-using-yolov8-e75b3ac71ed8
+[2] https://medium.com/@VK_Venkatkumar/yolov8-architecture-cow-counter-with-region-based-dragging-using-yolov8-e75b3ac71ed8
 \
-K. Simonyan and A. Zisserman, “Very Deep Convolutional Networks for Large-Scale Image Recognition.” arXiv, Apr. 10, 2015. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/1409.1556
+[3] K. Simonyan and A. Zisserman, “Very Deep Convolutional Networks for Large-Scale Image Recognition.” arXiv, Apr. 10, 2015. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/1409.1556
 \
-C.-Y. Wang, I.-H. Yeh, and H.-Y. M. Liao, “YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information.” arXiv, Feb. 28, 2024. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/2402.13616
+[4] C.-Y. Wang, I.-H. Yeh, and H.-Y. M. Liao, “YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information.” arXiv, Feb. 28, 2024. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/2402.13616
 
 
