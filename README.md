@@ -44,18 +44,23 @@ The above image shows the training and validation accuracy for the classificatio
 This image shows the same information as the previous image, but for when the model is asked to differentiate between 3 classes instead of 2. As you can see, while the training accuracy was still high, the validation accuracy dropped precipitiously to just of 82 percent. Because of this, we foresaw limited use in further expandning this model and chose to shift focus to a model that uses more data and can detect road objects instead of simply classifying them.
 
 ## Detection
+Explain metrics
 
 ![](./Visuals/Det_Metrics.png)
 
 # Demonstrations
 ## Classification
+The following images showcases what the model is capable of. When given a processed input image, the model can predict which class the picture belongs to by outputing a vector that contains the probability that the image corresponds to eash class. With that vector you can find the class with the highest probability and use that to make a prediction on the image.
 
 ![](./Visuals/plain.png)
 
 ![](./Visuals/pothole.png)
 
 ![](./Visuals/animal.png)
+
 ## Detection
+Explain demos
+
 ![](./Visuals/detection1.jpg)
 
 ![](./Visuals/detection2.jpg)
