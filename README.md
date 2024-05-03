@@ -1,4 +1,3 @@
-\
 # Hazard Detection in Self-driving Vehicles
 Link to presentation slides [here.](https://github.com/mattwyz/CS-766-Project/blob/main/Presentation_Slides.pdf)\
 Link to Github repository [here.](https://github.com/mattwyz/CS-766-Project)
@@ -22,7 +21,7 @@ Then, using the [FiftyOne](https://docs.voxel51.com/) library, we converted the 
 in a text file for each image.
 
 ## Model Architectures 
-The classification model uses the VGG16 architecture that was developed by NK. Simonyan and A. Zisserman from the University of Oxford in 2014. It was described in their paper "Very Deep Convolutional Networks for Large-Scale Image Recognition." In the VGG16 architecture, images pass through sequential layers that include two convolutional layers followed by a max-pooling layer, continuing with more convolutions and pooling until reaching the fully connected layers. The convolutional layers primarily use small 3×3 filters, with a stride of 1 and padding to preserve spatial resolution, alongside 2×2 max-pooling layers with a stride of 2.
+The classification model uses the VGG16 architecture that was described by NK. Simonyan and A. Zisserman from the University of Oxford in 2014. It was described in their paper "Very Deep Convolutional Networks for Large-Scale Image Recognition." In the VGG16 architecture, images pass through sequential layers that include two convolutional layers followed by a max-pooling layer, continuing with more convolutions and pooling until reaching the fully connected layers. The convolutional layers primarily use small 3×3 filters, with a stride of 1 and padding to preserve spatial resolution, alongside 2×2 max-pooling layers with a stride of 2. We replicated this architecture using Keras. The below image offers a visual approximation of the implemented architecture.
 
 ![](./VGG1.png)
 \
@@ -32,7 +31,7 @@ The detection model
 # Results
 ## Classification 
 
-## Detection (Yolov8)
+### Detection (Yolov8)
 
 
 
