@@ -32,16 +32,16 @@ The detection model  ...
 
 # Results
 ## Classification 
-The results for the classification model were measured by inspecting the validation and testing accuracy and loss given by the model.
+The results for the classification model were measured by inspecting the validation accuracy given by the model.
 In our case, we first tested using the binary classification model in order to create a baseline of performance for the model, and then we added another class to determine how perforance was altered.
 
 ![](./Visuals/TandV_Acc2.png)
 
-![](./Visuals/TandC_Loss2.png)
+The above image shows the training and validation accuracy for the classification model when 2 classes were use and it was trained for 10 epochs. Training accuracy was very high at over 97 percent and the validation accuracy was slightly lower at about 92 percent.
 
 ![](./Visuals/TandV_Acc3.png)
 
-![](./Visuals/TandC_Loss3.png)
+This image shows the same information as the previous image, but for when the model is asked to differentiate between 3 classes instead of 2. As you can see, while the training accuracy was still high, the validation accuracy dropped precipitiously to just of 82 percent. Because of this, we foresaw limited use in further expandning this model and chose to shift focus to a model that uses more data and can detect road objects instead of simply classifying them.
 
 ## Detection
 
@@ -63,3 +63,5 @@ In our case, we first tested using the binary classification model in order to c
 [Verification conducted using a video captured by us on John Nolen Drive, Madison, WI.](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
 
 # References
+https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
+https://medium.com/@VK_Venkatkumar/yolov8-architecture-cow-counter-with-region-based-dragging-using-yolov8-e75b3ac71ed8
