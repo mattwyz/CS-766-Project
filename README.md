@@ -18,5 +18,11 @@ images of roads with and without potholes that were scraped from google. Before 
 Then we found and added around 100 images into the dataset in order to create a new class of hazard. When we had the images, we preprocessed them using Keras by resizing and scaling the images for ease of computing.
 
 # Results
+## Classification 
+
+## Detection (Yolov8)
+
 
 # Demonstrations
+
+[![Watch the video]([https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link))]
