@@ -28,6 +28,8 @@ The classification model uses the VGG16 architecture that was described by NK. S
 \
 The detection model  ...
 
+![](./Visuals/YOLO.png)
+
 # Results
 ## Classification 
 The results for the classification model were measured by inspecting the validation and testing accuracy and loss given by the model.
@@ -43,7 +45,9 @@ In our case, we first tested using the binary classification model in order to c
 
 ## Detection (Yolov8)
 
+![](./Visuals/detection1.png)
 
+![](./Visuals/detection2.png)
 
 # Demonstrations
 
