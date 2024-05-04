@@ -65,7 +65,7 @@ These images are examples of what the model is capable of, it can detect cars, t
 
 ![](./Visuals/detection2.jpg)
 
-The first link below contains footage take by us in Madison during the day, and the second link is a demonstration from video provided by the BDD100K dataset that shows how the model can still work at night in poor lighting conditions. 
+The first link below contains footage take by us in Madison during the day, and the second link is a demonstration on video provided by the BDD100K dataset that shows how the model can still work at night in poor lighting conditions. 
 
 [Verification conducted using a video captured by us on John Nolen Drive, Madison, WI.](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
 \
