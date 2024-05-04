@@ -1,6 +1,5 @@
 # Hazard Detection in Self-driving Vehicles
 Link to presentation slides [here.](https://github.com/mattwyz/CS-766-Project/blob/main/Presentation_Slides.pdf)\
-Link to Github repository [here.](https://github.com/mattwyz/CS-766-Project)
 
 # Motivation and Problem Statement
 Every year there are more electric and self driving vehicles on the roads, and an important part of these vehicles is ensuring the occupants and other drivers' safety.
@@ -72,6 +71,14 @@ The first link below contains footage take by us in Madison during the day, and 
 [Verification conducted using a video captured by us on John Nolen Drive, Madison, WI.](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
 \
 [Demo on a video from Bdd100k at night condition.](https://drive.google.com/file/d/1II44n4NCvpJYYG3uKN_vE9K6-DPWbO6o/view?usp=drive_link)
+
+# Using Our Reposoity
+Link to Github repository [here](https://github.com/mattwyz/CS-766-Project).
+\
+The code for the classification model can be found in the repository in the 'Code' directory and the dataset for that model can be found [here](https://drive.google.com/file/d/1F0Wrvcg7tvZJ4gkQuoD2Yu6bLfRbCZtE/view?usp=drive_link).
+
+We used Google Colab for the computing power, so the model mounts itself to Google Drive, where we stored the data. Because of this he file paths will likely be different in a different Drive/environment, but all that is needed to run the model is to download hazard_classification.ipynb file, dataset, install the required python libraries, and change any required file paths to match your environment.
+
 # References
 [1] https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
 \
