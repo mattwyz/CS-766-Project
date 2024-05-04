@@ -44,15 +44,15 @@ The above image shows the training and validation accuracy for the classificatio
 This image shows the same information as the previous image, but for when the model is asked to differentiate between 3 classes instead of 2. As you can see, while the training accuracy was still high, the validation accuracy dropped precipitiously to just of 82 percent. Because of this, we foresaw limited use in further expandning this model and chose to shift focus to a model that uses more data and can detect road objects instead of simply classifying them.
 
 ## Detection
-Explain metrics
+For the detection model, the metrics we decided to evaluate on were the precision, which tracks the models ability to avoid false positives,and  recall, which measures the models ability to correctly detect all classes.
 
 ![](./Visuals/Det_Metrics_1.png)
 
-![](./Visuals/Det_Metrics_2.png)
+From this image, we can see that the precision hovers at around 56 percent and the recall reachs almost 30 percent after 10 epochs. This means that 56 percent of the positive predictions outputted by the model are actually positive and that the model about was able to identify 30 percent of all positive instance of a class. We think we may have been able to improve this if we had more computing power, but despite these results, when we used the model on our own video and video from the BDD100K dataset, we found that it was able to identify most cars on the road ahead.
 
 # Demonstrations
 ## Classification
-The following images showcases what the model is capable of. When given a processed input image, the model can predict which class the picture belongs to by outputing a vector that contains the probability that the image corresponds to eash class. With that vector you can find the class with the highest probability and use that to make a prediction on the image.
+The following image showcases what the model is capable of. When given a processed input image, the model can predict which class the picture belongs to by outputing a vector that contains the probability that the image corresponds to eash class. With that vector you can find the class with the highest probability and use that to make a prediction on the image.
 
 ![](./Visuals/plain.png)
 
