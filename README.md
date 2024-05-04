@@ -11,7 +11,7 @@ We set out to make a simple model that could classify multiple different types o
 ## Datasets and Preprocessing
 For our project we used two different datasets for our individual classification and detection models.\
 \
-For our classification model we used a dataset found on [Kaggle](https://www.kaggle.com/datasets/virenbr11/pothole-and-plain-rode-images/data) which included 740
+For our classification model we used a dataset found on Kaggle which included 740
 images of roads with and without potholes that were scraped from google. Before training, we removed the images that had poor quality or did not accurately match their corresponding labels.
 Then we found and added around 100 images into the dataset in order to create a new class of hazard. When we had the images, we preprocessed them using Keras by resizing and scaling the images for ease of computing.\
 \
