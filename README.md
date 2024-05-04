@@ -26,7 +26,7 @@ The classification model uses the VGG16 architecture that was described by NK. S
 ![](./Visuals/VGG1.png)
 \
 \
-The detection model we applied in this project is Yolov8n. Visual object detection algorithms are categorized into two types: one-stage and two-stage. We used Yolov8 because one-stage algorithms process images through the network model once and generate all the bounding boxes in a single pass, making them quick and highly suitable for real-time detection scenarios.YOLOv8 has been proven effective in a variety of computer vision tasks and various real-time object detecting scenarios. 
+The detection model we applied in this project is Yolov8n, released by Ultralytics in 2023. Visual object detection algorithms are categorized into two types: one-stage and two-stage. We used Yolov8 because one-stage algorithms process images through the network model once and generate all the bounding boxes in a single pass, making them quick and highly suitable for real-time detection scenarios. Similar to Yolov5, YOLOv8 uses a similar backbone with some changes on the CSPLayer (c2f module) to improve detection accuracy and has been proven effective in a variety of computer vision tasks and various real-time object detecting scenarios. YOLOv8 can be run from the command line interface (CLI), or it can also be installed as a PIP package. In this project, we applied it in the CLI. 
 
 ![](./Visuals/YOLO.jpg)
 
@@ -78,5 +78,8 @@ The first link below contains footage take by us in Madison during the day, and 
 [3] K. Simonyan and A. Zisserman, “Very Deep Convolutional Networks for Large-Scale Image Recognition.” arXiv, Apr. 10, 2015. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/1409.1556
 \
 [4] C.-Y. Wang, I.-H. Yeh, and H.-Y. M. Liao, “YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information.” arXiv, Feb. 28, 2024. Accessed: May 03, 2024. [Online]. Available: http://arxiv.org/abs/2402.13616
+\
+[5] J. Terven, D.-M. Córdova-Esparza, and J.-A. Romero-González, “A Comprehensive Review of YOLO Architectures in Computer Vision: From YOLOv1 to YOLOv8 and YOLO-NAS,” MAKE, vol. 5, no. 4, pp. 1680–1716, Nov. 2023, doi: 10.3390/make5040083.
+
 
 
