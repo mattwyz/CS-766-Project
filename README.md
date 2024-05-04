@@ -46,7 +46,9 @@ This image shows the same information as the previous image, but for when the mo
 ## Detection
 Explain metrics
 
-![](./Visuals/Det_Metrics.png)
+![](./Visuals/Det_Metrics_1.png)
+
+![](./Visuals/Det_Metrics_2.png)
 
 # Demonstrations
 ## Classification
