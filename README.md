@@ -79,6 +79,10 @@ The code for the classification model can be found in the repository in the 'Cod
 
 We used Google Colab for the computing power, so the model mounts itself to Google Drive, where we stored the data. Because of this he file paths will likely be different in a different Drive/environment, but all that is needed to run the model is to download hazard_classification.ipynb file, dataset, install the required python libraries, and change any required file paths to match your environment.
 
+For detection model, following the jupter notebook tutorial in Detection directory 
+\
+Here is the link to the converted dataset [here](https://drive.google.com/file/d/1--aXeFS7KhZ54zq5H6dn2GwS7bsJOqxP/view?usp=sharing)
+
 # References
 [1] https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
 \
