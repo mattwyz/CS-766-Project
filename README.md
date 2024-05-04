@@ -59,11 +59,13 @@ The following images showcases what the model is capable of. When given a proces
 ![](./Visuals/animal.png)
 
 ## Detection
-Explain demos
+These images are examples of what the model is capable of, it can detect cars, trucks, road signs, and traffic light from various viewpoints and lighting conditions.
 
 ![](./Visuals/detection1.jpg)
 
 ![](./Visuals/detection2.jpg)
+
+The first link below contains footage take by us in Madison during the day, and the second link is a demonstration from video provided by the BDD100K dataset that shows how the model can still work at night in poor lighting conditions. 
 
 [Verification conducted using a video captured by us on John Nolen Drive, Madison, WI.](https://drive.google.com/file/d/1IW957dk0qJjIovECwUIXdjqxlTxDkt-K/view?usp=drive_link)
 \
