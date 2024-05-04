@@ -81,7 +81,13 @@ We used Google Colab for the computing power, so the model mounts itself to Goog
 
 For detection model, following the jupter notebook tutorial in Detection directory 
 \
-Here is the link to the converted dataset [here](https://drive.google.com/file/d/1--aXeFS7KhZ54zq5H6dn2GwS7bsJOqxP/view?usp=sharing)
+We also upload our checkpoints: last.pt and best.pt.
+\
+You could use last.pt for continue training the model 
+\
+For best.pt, We use this checkpoint for predicting the test test and evaluate the performance of the model with best paramaters. 
+\
+Here is the link to the converted dataset for training [here](https://drive.google.com/file/d/1--aXeFS7KhZ54zq5H6dn2GwS7bsJOqxP/view?usp=sharing)
 
 # References
 [1] https://medium.com/codex/vggnet-complete-architecture-5c6fa801502b
